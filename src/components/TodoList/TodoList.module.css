@@ -1,0 +1,35 @@
+.list {
+  padding: 10px;
+  max-width: 600px;
+  margin: 0px auto;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #000;
+  margin-bottom: 7px;
+  background-color: #fff;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.15);
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.text {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 5px;
+}
+
+.buttonDelete {
+  border-radius: 4px;
+  padding: 8px 18px;
+  background-color: rgb(75, 8, 153);
+  color: #fff;
+  font-weight: 400;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.15);
+}

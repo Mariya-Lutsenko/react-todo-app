@@ -1,0 +1,29 @@
+.container {
+  padding: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.counter {
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.counter:last-child {
+  margin-bottom: 0;
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(119, 35, 214);
+  color: #fff;
+}
+
+button:active {
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15);
+  color: #fff;
+}
